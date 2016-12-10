@@ -11,10 +11,10 @@ namespace WindowsFormsApplication1.Factory.Facilities
 {
     class Facility
     {
+        //созданные "приспособления" для кого-либо, не важно кошка или собака
         private Bowl bowl;
         private Cage cage;
         private Collar collar;
-
         public void setBowl(Bowl bowl)
         {
             this.bowl = bowl;

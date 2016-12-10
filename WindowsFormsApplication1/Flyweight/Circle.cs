@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApplication1.Flyweight
 {
+    //реализация круга
     class Circle : Shape
     {
         private String color;

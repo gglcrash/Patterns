@@ -20,8 +20,8 @@ namespace WindowsFormsApplication1
 
         private void startButton_Click(object sender, EventArgs e)
         {
-            ShapeFactory.resetDictionary();
-            FlyweightExample example = new FlyweightExample();
+            ShapeFactory.resetDictionary();  //сброс словаря при новом запуске
+            FlyweightExample example = new FlyweightExample(); 
             richTextBox1.Text = example.start();
         }
     }

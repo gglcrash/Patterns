@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApplication1.Factory.Facilities.Collars
 {
+    //ошейник для кота
     class CatCollar : Collar
     {
         public override void create()

@@ -11,6 +11,7 @@ namespace WindowsFormsApplication1.Factory
 {
     class CatFacilitiesFactory : AnimalFacilitiesFactory
     {
+        //фабрика для создания миска, клетки, ошейника КОНКРЕТНО для кота
         public override Bowl createBowl()
         {
             return new CatBowl();

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApplication1.Factory.Facilities.Bowls
 {
+    //миска для собаки
     class DogBowl : Bowl
     {
         public override void create()

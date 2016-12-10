@@ -12,6 +12,7 @@ namespace WindowsFormsApplication1.Factory
     
     abstract class AnimalFacilitiesFactory
     {
+        //абстрактная фабрик для создания миски, клетки и ошейника для любого животного
         public abstract Bowl createBowl();
         public abstract Cage createCage();
         public abstract Collar createCollar();

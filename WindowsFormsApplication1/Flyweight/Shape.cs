@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApplication1.Flyweight
 {
+    //интерфейс "фигура", от него можем реализовывать не только круги, но и всякие квадраты, треугольники итд
     public interface Shape
     {
         void draw();

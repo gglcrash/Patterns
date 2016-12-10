@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApplication1.Factory.Facilities.Cages
 {
+    //клетка для кота
     class CatCage : Cage
     {
         public override void create()

@@ -24,6 +24,8 @@ namespace WindowsFormsApplication1
         {
             if (CatRadioButton.Checked)
             {
+                //объект "приспособления", содержащий в себе миску, клетку и ошейник, преобразованный в строку
+                //для отображения на форме
                 result = Helper.getInstance().createFacilities(new CatFacilitiesFactory()).ToString();
 
             } else if (DogRadioButton.Checked) {

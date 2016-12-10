@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApplication1.Factory.Facilities.Cages
 {
+    //клетка для кого-либо
     abstract class Cage
     {
         public Cage()
