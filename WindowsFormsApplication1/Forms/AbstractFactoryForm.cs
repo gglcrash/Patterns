@@ -22,14 +22,15 @@ namespace WindowsFormsApplication1
         String result;
         private void createButton_Click(object sender, EventArgs e)
         {
+            Helper helper = new Helper();
             if (CatRadioButton.Checked)
             {
                 //объект "приспособления", содержащий в себе миску, клетку и ошейник, преобразованный в строку
                 //для отображения на форме
-                result = Helper.getInstance().createFacilities(new CatFacilitiesFactory()).ToString();
+                result = helper.createFacilities(new CatFacilitiesFactory()).ToString();
 
             } else if (DogRadioButton.Checked) {
-                result = Helper.getInstance().createFacilities(new DogFacilitiesFactory()).ToString();
+                result = helper.createFacilities(new DogFacilitiesFactory()).ToString();
             }
             richTextBox.Text=result;
         }

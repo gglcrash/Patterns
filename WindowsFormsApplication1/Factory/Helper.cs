@@ -11,15 +11,6 @@ namespace WindowsFormsApplication1.Factory
     {
         //класс, который записывает в объект "приспособления" конкретные вещи для кота или собаки (эт определяется
         //типом фабрики, которая будет передана в createFacilities
-        private static Helper instance;
-        public static Helper getInstance()
-        {
-            if (instance == null)
-            {
-                instance = new Helper();
-            }
-            return instance;
-        }
 
         public Facility createFacilities(AnimalFacilitiesFactory factory)
         {
